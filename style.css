@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nova+Square&family=Roboto+Condensed:ital,wght@1,500&display=swap");
+body {
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(90deg, rgb(245, 13, 133), rgb(80, 78, 169));
+  font-family: "Roboto Condensed", sans-serif;
+}
+.heading {
+  text-align: center;
+  font-size: larger;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  margin: 25px;
+  gap: 5px;
+  font-size: xx-large;
+}
+input {
+  padding: 10px;
+  gap: 10px;
+}
+button {
+  width: 40%;
+  height: 40px;
+  margin-left: 150px;
+  background-color: green;
+  border-radius: 25px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 217, 255, 0.852);
+}
+th {
+  background-color: black;
+  color: aqua;
+}
+th,
+td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-weight: bolder;
+}
